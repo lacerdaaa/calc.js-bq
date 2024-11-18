@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Calc - Eduardo Lacerda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Calculadora - Eduardo Lacerda</h1>
+        </header>
+        <div class="calc-row">
+            <input type="text" id="input">s
+        </div>
+        <div id="keys">
+            <div class="calc-row">
+                <button class="charKey" data-value="1">1</button>
+                <button class="charKey" data-value="2">2</button>
+                <button class="charKey" data-value="3">3</button>
+                <button class="charKey" data-value=" + ">
+                    <i class="fas fa-plus"></i> Adição
+                </button>
+            </div>
+
+            <div class="calc-row">
+                <button class="charKey" data-value="4">4</button>
+                <button class="charKey" data-value="5">5</button>
+                <button class="charKey" data-value="6">6</button>
+                <button class="charKey" data-value=" - ">
+                    <i class="fas fa-minus"></i> Subtração
+                </button>
+            </div>
+
+            <div class="calc-row">
+                <button class="charKey" data-value="7">7</button>
+                <button class="charKey" data-value="8">8</button>
+                <button class="charKey" data-value="9">9</button>
+                <button class="charKey" data-value=" * ">
+                    <i class="fas fa-times"></i> Multiplicação
+                </button>
+            </div>
+
+            <div class="calc-row">
+                <button class="charKey" data-value="0" id="zero">0</button>
+                <button class="charKey" data-value=" ! " id="factorial"> ! Fatorial </button>
+                <button class="charKey" data-value=" / ">
+                    <i class="fas fa-divide"></i> Divisão
+                </button>
+            </div>
+
+            <div class="calc-row">  
+                <button class="charKey" id="reset">Reset</button>
+                <button class="charKey" id="equal">Calcular</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
